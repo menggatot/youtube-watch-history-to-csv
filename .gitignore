@@ -1,0 +1,10 @@
+# Ignore all files
+*
+
+# But don't ignore directories, so we can recurse into them
+!*/
+
+# Don't ignore these files
+!yt-history-to-csv.py
+!setup.sh
+!README.md
