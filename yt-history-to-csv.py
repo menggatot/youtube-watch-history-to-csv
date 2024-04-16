@@ -29,7 +29,7 @@ def get_metadata(url):
             return None
 
 def parse_html(input_file, output_file, resume=False):
-    with open(input_file, "r") as f:
+    with open(input_file, "r", encoding = "utf-8") as f:
         contents = f.read()
 
     soup = BeautifulSoup(contents, 'lxml')
